@@ -2,7 +2,7 @@ import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
-import TodoFooter from './redux/TodoFooter';
+import TodoFooter from './TodoFooter';
 import {selectTodo,selectState, clearComp, addNewTodoCheck,deleteTodo} from "./redux/TodosSlice/TodosSlice"
 
 function App() {
